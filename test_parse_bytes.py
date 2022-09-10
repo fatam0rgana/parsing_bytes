@@ -1,6 +1,6 @@
 import pytest
 from parse_bytes import parse_bytes, get_data_from_payload
-from test_data import test_data
+from data_for_tests import test_data
 
 
 @pytest.mark.parametrize('payload, expected_result', [('10FA0E00', ['00010000',
