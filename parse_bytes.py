@@ -68,6 +68,3 @@ def get_data_from_payload(payload):
     return res
 
 
-print(get_data_from_payload('101'))
-
-
